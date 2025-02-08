@@ -1,0 +1,42 @@
+lo mas facil es instalar el CDN 
+
+Si no este es el paso a paso: 
+ 
+ instalar por el CLI para Desarrollo: 
+    
+    npm install -D tailwindcss@3
+
+    creamos el tailwind.config.js
+        npx tailwindcss init
+
+    creamos el src
+
+    copiamos el Content:
+        content: ["./src/**/*.{html,js}"],
+
+    Creamos: 
+        input.css
+        pegmaos las directivas: 
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+    Ejecutamos las directivas: 
+        npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+    Linkeamos en el HTML:
+        <link rel="stylesheet" href="./output.css ">
+
+    Poner a escuchar el tailwind: 
+        npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+________________________________________
+COLORES: 
+
+corchetes []
+
+variables en el extend: "azul-claro": "#24cff",
+
+
+
+
+
