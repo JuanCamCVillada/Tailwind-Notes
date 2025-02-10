@@ -37,6 +37,28 @@ corchetes []
 variables en el extend: "azul-claro": "#24cff",
 
 
+_________________________________________
+MEDIDAS ANCHO Y ALTO: 
 
+width ancho:
+w-0 
 
+medidas personalizadas: 
+
+spacing: {
+        42: "170px",
+      },
+
+h-42
+
+//Solo para el ancho: 
+width: {
+        42: "170px",
+      },
+
+h-screen //ocupa toda la pantalla 
+h-full  // ocupa todo el padre
+
+________________________________________
+MANEJO DE ESTADOS:
 

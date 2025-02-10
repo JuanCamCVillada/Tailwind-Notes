@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         "azul-claro": "#243cff",
       },
+      spacing: {
+        42: "170px",
+      },
     },
   },
   plugins: [],

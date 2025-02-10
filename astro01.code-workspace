@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "astro01",
+			"path": "../Astro/astro01"
+		},
+		{
+			"name": "JS",
+			"path": "../JS"
+		},
+		{
+			"name": "Tailwind",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS"
+	}
+}
