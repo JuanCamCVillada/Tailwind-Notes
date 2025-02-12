@@ -62,3 +62,9 @@ h-full  // ocupa todo el padre
 ________________________________________
 MANEJO DE ESTADOS:
 
+cursor-pointer para cambiar el estado del hover 
+
+hover: 
+disabled: 
+focus: 
+invalid: Tambien se pudes usar dos propiedades invalid:focus:

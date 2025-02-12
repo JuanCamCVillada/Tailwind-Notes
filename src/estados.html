@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link de Tailwind -->
+    <link rel="stylesheet" href="./output.css ">
+
+    <title>Manejo de Estados</title>
+</head>
+<body class="bg-blue-100">
+    <h2>Ingresa tus Datos</h2>
+
+    <form action="" class="bg-white w-80 mx-auto rounded-lg p-6">
+        <input class="
+        border border-gray-300
+        w-full
+        px-3
+        py-2
+        mb-4
+        rounded-md
+        disabled:bg-slate-200
+        " type="text" placeholder="Nombre" disabled>
+
+        <input class="border border-gray-300 w-full px-3 py-2 mt-2 mb-2 rounded-md
+        focus:outline-none
+        focus:ring-2
+        focus:ring-blue-600
+        invalid:focus:ring-red
+        peer 
+        " type="email" placeholder="Correo">
+
+        <p class="
+        text-red-400
+        ml-3
+        hidden
+        peer-invalid:block
+        ">El Correo Es Incorrecto</p>
+
+        <input class="border border-gray-300 w-full px-3 py-2 mt-4 mb-4 rounded-md" type="text" placeholder="Contraseña">
+         
+        <!-- Boton -->
+        <input class="bg-blue-500 w-full py-2 text-white rounded-lg cursor-pointer 
+        hover:bg-blue-400" type="Submit" value="Ingresar"> 
+    </form>
+    
+</body>
+</html>
